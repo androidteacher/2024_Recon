@@ -1,1 +1,1 @@
-for i in $(cat test.txt); do echo $i | httpx; done
+for i in $(cat 03_output.txt); do echo $i | httpx > 04_output_httpx.txt; done 
